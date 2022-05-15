@@ -384,6 +384,9 @@ L:
 			index.Frame = ReadFrame(&line)
 			(*track).Index = append((*track).Index, index)
 			break
+		case "REM":
+			// ignore comment inside of track
+			break
 		default:
 			break L
 		}
