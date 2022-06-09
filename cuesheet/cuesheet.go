@@ -285,6 +285,9 @@ func FormatFrame(frame Frame) string {
 }
 
 func isQuoted(s string) bool {
+	if s == "" {
+		return false
+	}
 	return s[0] == '"' || s[0] == '\''
 }
 
