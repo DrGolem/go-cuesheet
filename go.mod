@@ -1,3 +1,3 @@
-module github.com/DrGolem/go-cuesheet
+module github.com/drgolem/go-cuesheet
 
 go 1.18
